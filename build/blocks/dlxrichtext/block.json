@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "title": "DLX RichText",
+  "apiVersion": 2,
+  "name": "dlxplugins/dlxrichtext",
+  "category": "common",
+  "icon": "editor-spellcheck",
+  "description": "A demonstration of a RichText component.",
+  "keywords": [
+    "rich",
+    "text",
+    "innerblocks",
+    "inner"
+  ],
+  "version": "1.0.0",
+  "textdomain": "dlxrichtext",
+  "attributes": {
+    "textContent": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "example": {
+    "attributes": {
+      "textContent": "<p>This is a sample RichText block.</p>"
+    }
+  },
+  "editorScript": "dlx-richtext-editor-script"
+}

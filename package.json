@@ -1,0 +1,23 @@
+{
+  "name": "dlxrichtext",
+  "version": "1.0.0",
+  "description": "Convert RichText to InnerBlocks",
+  "main": "index.js",
+  "scripts": {
+	"start": "wp-scripts start --env mode=development",
+    "build": "wp-scripts build --env mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DLXPlugins/DLXRichText.git"
+  },
+  "author": "Ronald Huereca",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/DLXPlugins/DLXRichText/issues"
+  },
+  "homepage": "https://github.com/DLXPlugins/DLXRichText#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.0.0"
+  }
+}
