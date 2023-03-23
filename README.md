@@ -1,6 +1,10 @@
 # DLXRichText
 Demonstrates in two branches how to convert RichText to InnerBlocks
 
+## InnerBlocks
+
+See <a href="https://github.com/DLXPlugins/DLXRichText/tree/innerblocks">the InnerBlocks branch</a> for the InnerBlocks version of this code.
+
 ## Folder Structure
 
 ```ascii
