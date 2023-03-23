@@ -25,3 +25,5 @@ Demonstrates in two branches how to convert RichText to InnerBlocks
 Run `npm install` in the plugin root.
 
 Run `npm run start` for a development build. `npm run build` for a production build.
+
+The main entry point is `src/index.js`.
