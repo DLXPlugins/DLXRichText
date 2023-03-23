@@ -41,7 +41,7 @@ const DLXRichText = ( props ) => {
 	 * Migrate RichText to InnerBlocks.
 	 */
 	useEffect( () => {
-		// Port shareText attribute to use innerBlocks instead.
+		// Port textContent attribute to use innerBlocks instead.
 		if ( textContent !== '' && null !== innerBlocksRef.current ) {
 			// Convert text over to blocks.
 			const richTextConvertedToBlocks = rawHandler( { HTML: textContent } );

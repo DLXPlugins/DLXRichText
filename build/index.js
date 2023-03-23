@@ -86,7 +86,7 @@ const DLXRichText = props => {
    * Migrate RichText to InnerBlocks.
    */
   (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    // Port shareText attribute to use innerBlocks instead.
+    // Port textContent attribute to use innerBlocks instead.
     if (textContent !== '' && null !== innerBlocksRef.current) {
       // Convert text over to blocks.
       const richTextConvertedToBlocks = (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_4__.rawHandler)({
