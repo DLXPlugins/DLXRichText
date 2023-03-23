@@ -33,13 +33,13 @@ add_action( 'init', __NAMESPACE__ . '\register_block' );
 /**
  * Output block to frontend.
  *
- * @param array $attributes Block attributes.
+ * @param array  $attributes Block attributes.
+ * @param string $content    InnerBlocks content.
  */
-function frontend_block_output( $attributes ) {
-	$richtext_content = $attributes['textContent'] ?? '';
+function frontend_block_output( $attributes, $content ) {
 	return sprintf(
 		'<div class="dlxrichtext-frontend">%s</div>',
-		wp_kses_post( $richtext_content )
+		wp_kses_post( $content )
 	);
 }
 
